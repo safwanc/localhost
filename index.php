@@ -34,16 +34,18 @@
 	      </a>
 	      <a class="brand" href="#">Safwan's MacBook Pro</a>
 	      <div class="nav-collapse">
+	      <!--
 	        <ul class="nav">
 				<li><a href="http://im.safwanc.com/">IM</a></li>
 				<li><a href="https://ece.uwaterloo.ca/~schoudhu/">UW</a></li>
 				<li><a href="http://cv.safwanc.com">CV</a></li>
 				<li><a href="http://www.safwanandnabihah.com">SN</a></li>
 	        </ul>
+	        -->
 	        <ul class="nav pull-right">
 	        	<li class="dropdown" id="socialmenu">
 	        		<a class="dropdown-toggle" data-toggle="dropdown" href="#socialmenu">
-	        		Networks<b class="caret"></b>
+	        		<i class="icon-user"></i><b class="caret"></b>
 	        		</a>
 	        		<ul class="dropdown-menu">
 	        			<li><a href="http://im.safwanc.com/github">Github</a></li>
@@ -62,23 +64,91 @@
 	<!-- /NAVIGATION -->
 	
     <div class="container">
-    
-    <div class="alert alert-info">
-      <button class="close" data-dismiss="alert">×</button>
-      <strong>Note:</strong> This page is served locally over the network but it may pull some information from APIs online. 
-    </div>
+    <br />
+	<div class="alert">
+		<strong><?php echo php_uname('n'); ?></strong> 
+		<p class="serverinfo"><?php echo php_uname('v'); ?></p>
+	</div>
 	
-	<!-- CONTENT -->
-    <h1>Active</h1>
-    <p>@TODO!</p>
-    
-    <h1>Sandbox</h1>
-    <p>@TODO.</p>
-    
-    <h1>Websites</h1>
-    <p>@TODO.</p>
-    <!-- /CONTENT -->
-    	
+	
+	<br />
+	<div class="row">
+		<!-- PROJECT VERTICAL --> 
+		<div class="span4">
+			<h1>Active</h1> <hr>
+			
+			<div class="project">
+			<h3>cv.safwanc.com</h3>
+			<p>Curriculum Vitae Front End</p>
+				<a class="btn btn-mini" href="#"><i class="icon-cog"></i> Local</a>
+				<a class="btn btn-mini btn-inverse" href="http://cv.safwanc.com"><i class="icon-random icon-white"></i> Live</a>
+			</div>
+			
+			<div class="project">
+			<h3>safwanandnabihah.com</h3>
+			<p>Engagement/Wedding Website</p>
+				<a class="btn btn-mini" href="#"><i class="icon-cog"></i> Local</a>
+				<a class="btn btn-mini btn-inverse" href="http://www.safwanandnabihah.com"><i class="icon-random icon-white"></i> Live</a>
+			</div>
+			
+		</div>
+		
+		<!-- PROJECT VERTICAL --> 
+		<div class="span4">
+			<h1>Personal</h1> <hr>
+			
+			<div class="project">
+			<h3>im.safwanc.com</h3>
+			<p>Tumblr Blog</p>
+				<a class="btn btn-mini disabled" href="#"><i class="icon-cog"></i> Local</a>
+				<a class="btn btn-mini btn-inverse" href="http://im.safwanc.com"><i class="icon-random icon-white"></i> Live</a>
+			</div>
+			
+			<div class="project">
+			<h3>safwanc.com</h3>
+			<p>Personal Website</p>
+				<a class="btn btn-mini disabled" href="#"><i class="icon-cog"></i> Local</a>
+				<a class="btn btn-mini btn-inverse" href="http://www.safwanc.com"><i class="icon-random icon-white"></i> Live</a>
+			</div>
+			
+			<div class="project">
+			<h3>ece.uwaterloo.ca/schoudhu</h3>
+			<p>University Website</p>
+				<a class="btn btn-mini disabled" href="#"><i class="icon-cog"></i> Local</a>
+				<a class="btn btn-mini btn-inverse" href="http://ece.uwaterloo.ca/~schoudhu"><i class="icon-random icon-white"></i> Live</a>
+			</div>
+			
+		</div>
+		
+		<!-- PROJECT VERTICAL --> 
+		<div class="span4">
+			<h1>Other</h1> <hr>
+			
+			<div class="project">
+			<h3>nabsy.me</h3>
+			<p>Nabby's Blog</p>
+				<a class="btn btn-mini disabled" href="#"><i class="icon-cog"></i> Local</a>
+				<a class="btn btn-mini btn-inverse" href="http://nabsy.me"><i class="icon-random icon-white"></i> Live</a>
+			</div>
+			
+			<div class="project">
+			<h3>hotyogadaily.com</h3>
+			<p>Wordpress Blog</p>
+				<a class="btn btn-mini disabled" href="#"><i class="icon-cog"></i> Local</a>
+				<a class="btn btn-mini btn-inverse disabled" href="#"><i class="icon-random icon-white"></i> Live</a>
+			</div>
+			
+			<div class="project">
+			<h3>snowingapp.com</h3>
+			<p>Tentative App Idea</p>
+				<a class="btn btn-mini disabled" href="#"><i class="icon-cog"></i> Local</a>
+				<a class="btn btn-mini btn-inverse disabled" href="#"><i class="icon-random icon-white"></i> Live</a>
+			</div>
+			
+		</div>
+	</div>	
+	<br />
+
     <!-- FOOTER --> 
     <hr>
 	<footer>
@@ -86,7 +156,6 @@
 			Copyright &copy; Safwan Choudhury <?php echo date("Y"); ?>. 
 			Hosted on a MacBook Pro running OS X Lion Server.
 		</p>
-		<pre class="serverinfo"><?php echo php_uname(); ?></pre>
 	</footer>
 	<!-- /FOOTER -->
 	

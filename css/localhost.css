@@ -4,7 +4,11 @@
  */
 
 .serverinfo {
-	font-size: 11px;
-	color: #000;
-	padding-top: -20px;
+ 	font-family: Menlo, Monaco, "Courier New", monospace;
+	font-size: 12px;
+}
+
+.project {
+  padding-top:  10px;
+  padding-bottom: 10px;
 }

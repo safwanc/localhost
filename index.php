@@ -18,10 +18,11 @@
     <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-     <script src="js/refresh.js"></script>
+    <!-- <script src="js/refresh.js"></script> -->
   </head>
-
-  <body onload="JavaScript:timedRefresh(5000);">
+  
+  <body>
+  <!--<body onload="JavaScript:timedRefresh(30000);">-->
 	<!-- NAVIGATION -->
 	<div class="navbar navbar-fixed-top">
 	  <div class="navbar-inner">
@@ -38,6 +39,21 @@
 				<li><a href="https://ece.uwaterloo.ca/~schoudhu/">UW</a></li>
 				<li><a href="http://cv.safwanc.com">CV</a></li>
 				<li><a href="http://www.safwanandnabihah.com">SN</a></li>
+	        </ul>
+	        <ul class="nav pull-right">
+	        	<li class="dropdown" id="socialmenu">
+	        		<a class="dropdown-toggle" data-toggle="dropdown" href="#socialmenu">
+	        		Networks<b class="caret"></b>
+	        		</a>
+	        		<ul class="dropdown-menu">
+	        			<li><a href="http://im.safwanc.com/github">Github</a></li>
+	        			<li><a href="http://im.safwanc.com/stackoverflow">Stack Overflow</a></li>
+	        			<li class="divider"></li>
+	        			<li><a href="http://im.safwanc.com/quora">Quora</a></li>
+	        			<li><a href="http://im.safwanc.com/linkedin">LinkedIn</a></li>
+	        			<li><a href="http://im.safwanc.com/academia">Academia</a></li>
+	        		</ul>
+	        	</li>
 	        </ul>
 	      </div>
 	    </div>

@@ -80,14 +80,14 @@
 			<div class="project">
 			<h3>cv.safwanc.com</h3>
 			<p>Curriculum Vitae Front End</p>
-				<a class="btn btn-mini" href="#"><i class="icon-cog"></i> Local</a>
+				<a class="btn btn-mini" href="cv/"><i class="icon-cog"></i> Local</a>
 				<a class="btn btn-mini btn-inverse" href="http://cv.safwanc.com"><i class="icon-random icon-white"></i> Live</a>
 			</div>
 			
 			<div class="project">
 			<h3>safwanandnabihah.com</h3>
 			<p>Engagement/Wedding Website</p>
-				<a class="btn btn-mini" href="#"><i class="icon-cog"></i> Local</a>
+				<a class="btn btn-mini" href="snc/"><i class="icon-cog"></i> Local</a>
 				<a class="btn btn-mini btn-inverse" href="http://www.safwanandnabihah.com"><i class="icon-random icon-white"></i> Live</a>
 			</div>
 			

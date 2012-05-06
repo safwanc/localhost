@@ -78,6 +78,13 @@
 			<h1>Active</h1> <hr>
 			
 			<div class="project">
+			<h3>safwanc.com</h3>
+			<p>Personal Website</p>
+				<a class="btn btn-mini" href="www/"><i class="icon-cog"></i> Local</a>
+				<a class="btn btn-mini btn-inverse" href="http://www.safwanc.com"><i class="icon-random icon-white"></i> Live</a>
+			</div>
+			
+			<div class="project">
 			<h3>cv.safwanc.com</h3>
 			<p>Curriculum Vitae Front End</p>
 				<a class="btn btn-mini" href="cv/"><i class="icon-cog"></i> Local</a>
@@ -102,13 +109,6 @@
 			<p>Tumblr Blog</p>
 				<a class="btn btn-mini disabled" href="#"><i class="icon-cog"></i> Local</a>
 				<a class="btn btn-mini btn-inverse" href="http://im.safwanc.com"><i class="icon-random icon-white"></i> Live</a>
-			</div>
-			
-			<div class="project">
-			<h3>safwanc.com</h3>
-			<p>Personal Website</p>
-				<a class="btn btn-mini disabled" href="#"><i class="icon-cog"></i> Local</a>
-				<a class="btn btn-mini btn-inverse" href="http://www.safwanc.com"><i class="icon-random icon-white"></i> Live</a>
 			</div>
 			
 			<div class="project">
